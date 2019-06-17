@@ -67,6 +67,10 @@ body {
     border: none;
     padding: 0px; 
   }
+
+  .button-style {
+    margin-right: 40px;
+  }
   
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
@@ -185,7 +189,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .picture {
-    height: 200px;
+    height: 150px;
   }
 }
   /* END ABOUT-ME PAGE */
