@@ -182,16 +182,23 @@ body {
 
   /* Media queries for smaller screen sizes */
   @media only screen and (max-width: 992px) {
-  .picture {
-    height: 100px;
+    .picture {
+      height: 100px;
+    }
   }
-}
 
-@media only screen and (max-width: 768px) {
-  .picture {
-    height: 150px;
+  @media only screen and (max-width: 768px) {
+    .picture {
+      height: 150px;
+    }
   }
-}
+
+  @media only screen and (max-width: 440px) {
+    /* #about-image {
+      margin-right: 100px;
+      width: 250px;
+    } */
+  }
   /* END ABOUT-ME PAGE */
   
   
