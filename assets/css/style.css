@@ -85,6 +85,11 @@ body {
     margin-left: 8px;
   }
 
+  .active {
+    background-color: #e3e6e6;
+    color: white; 
+  }
+
 
   /* CONNECT W/ ME CSS */
   .connect-header {
