@@ -80,7 +80,12 @@ body {
   }
   /* END NAV */
   
-  
+  /* Styles for About Me, Portfolio and Contact buttons */
+  li {
+    margin-left: 8px;
+  }
+
+
   /* CONNECT W/ ME CSS */
   .connect-header {
     /* Typography */
