@@ -18,12 +18,15 @@ body {
   /* fix top and margin issues only on the content containers */
   .wrapper {
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 25px;
   }
-  
-  /* add space for fixed nav */
-  main {
-    margin: 120px 0;
+
+  main, .container-block {
+    margin: 25px, 100px, 50px, 100px;
+  }
+
+  footer.cite {
+    text-align: right;
   }
   
   /* create styles for use for all white main boxes */
