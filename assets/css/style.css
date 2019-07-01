@@ -25,6 +25,7 @@ body {
     margin: 25px, 100px, 50px, 100px;
   }
 
+  /* Author's name */
   footer.cite {
     text-align: right;
   }
@@ -77,10 +78,15 @@ body {
   
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
-    .navbar-header {
-      background-color: #4aaaa5;
+    div.nav {
+      /* background-color: #4aaaa5; */
+    }
+
+    button.navbar-toggler {
+      padding: 1px;
     }
   }
+
   /* END NAV */
   
   /* Styles for About Me, Portfolio and Contact buttons */
@@ -115,6 +121,20 @@ body {
   }
   /* END CONNECT W/ ME */
   
+  .margin {
+    margin-bottom: 150px;
+  }
+
+  /* Media queries for smaller screen sizes; fixes margins between the two boxes on the about me page */
+  @media only screen and (max-width: 768px) {
+    article.main {
+      margin-bottom: 25px;
+    }
+
+    article.pictures {
+      margin-top: 25px;
+    }
+  } 
   
   /* BEGIN FOOTER */
   .footer {
@@ -272,3 +292,4 @@ body {
   }
   
   /* END CONTACT FORM PAGE */
+
