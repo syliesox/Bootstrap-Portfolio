@@ -4,7 +4,7 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
     /* Typography */
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   html {
@@ -42,7 +42,7 @@ body {
   .block-header {
     /* Typography */
     color: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 24px;
   }
@@ -180,7 +180,7 @@ body {
   .about-me-header {
     /* Positioning */
     margin-bottom: 33px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
     /* Typography */
     font-size: 32px;
@@ -199,7 +199,7 @@ body {
 
   p, .text-brown {
       color: #666;
-      font-family: Georgia, Times, "Times New Roman", serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .picture {
@@ -293,3 +293,29 @@ body {
   
   /* END CONTACT FORM PAGE */
 
+  /* RESUME PAGE  */
+
+  a.link {
+    color: #4aaaa5;
+    text-decoration: underline;
+  }
+
+  .main {
+    font-size: 20px;
+    color: #4aaaa5;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  .year {
+    font-style: italic;
+    color: #898989;
+    font-size: 14px;
+  }
+
+
+
+
+  /* END RESUME PAGE */
